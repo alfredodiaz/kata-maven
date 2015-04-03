@@ -20,4 +20,9 @@
         <module>kata-maven-g2</module>
         <module>kata-maven-distribution</module>
     </modules>
+    <scm>
+        <url>https://github.com/alfredodiaz/maven-kata.git</url>
+        <connection>scm:git:git@github.com:alfredodiaz/maven-kata.git</connection>
+        <developerConnection>scm:git:git@github.com:alfredodiaz/maven-kata.git</developerConnection>
+    </scm>
 </project>
