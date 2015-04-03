@@ -1,0 +1,26 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/kata-maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+      <groupId>net.therore.kata.maven.g2</groupId>
+      <artifactId>kata-maven-g2-parent</artifactId>
+      <version>1.0-SNAPSHOT</version>
+  </parent>
+  <groupId>net.therore.kata.maven.g2.g3</groupId>
+  <artifactId>kata-maven-g2-g3-parent</artifactId>
+  <packaging>pom</packaging>
+  <name>kata-maven-g2-g3-parent</name>
+
+  <dependencies>
+    <dependency>
+      <groupId>net.therore.kata.maven.g1</groupId>
+      <artifactId>kata-maven-g1-b</artifactId>
+      <version>${project.version}</version>
+    </dependency>
+  </dependencies>
+  
+  <modules>
+  		<module>kata-maven-g2-g3-d</module>
+      <module>kata-maven-g2-g3-e</module>
+  </modules>
+</project>

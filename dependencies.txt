@@ -1,0 +1,6 @@
+net.therore.kata.maven:maven-distribution:jar:1.0-SNAPSHOT
++- net.therore.kata.maven.g2.g3:maven-g2-g3-d:jar:1.0-SNAPSHOT:compile
+|  +- net.therore.kata.maven.g2:maven-g2-c:jar:1.0-SNAPSHOT:compile
+|  \- net.therore.kata.maven.g1:maven-g1-b:jar:1.0-SNAPSHOT:compile
+|     \- net.therore.kata.maven.g1:maven-g1-a:jar:1.0-SNAPSHOT:compile
++- net.therore.kata.maven.g2.g3:maven-g2-g3-e:jar:1.0-SNAPSHOT:compile
